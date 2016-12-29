@@ -1,0 +1,46 @@
+{
+	"songs":[
+		{
+			"id":0,
+			"nombre":"A Lifetime of Adventure",
+			"artista":"Tuomas Holopaine",
+			"song":"music/09 - A Lifetime of Adventure.mp3",
+			"img":"imgs/descarga.jpg"
+		},
+		{
+			"id":1,
+			"nombre":"Igniter",
+			"artista":"Butcher Babies",
+			"song":"music/Butcher babies igniter[Mp3xd.tv].mp3",
+			"img":"imgs/Tuomas Holopainen - The Life and Times of Scrooge (2014).jpg"
+		},
+		{
+			"id":2,
+			"nombre":"Wanderer",
+			"artista":"Ensiferum",
+			"song":"music/Ensiferum - Wanderer.mp3",
+			"img":"imgs/ensiferum-victory-songs.jpg"
+		},
+		{
+			"id":3,
+			"nombre":"I Will",
+			"artista":"Chelsy",
+			"song":"music/I will - Chelsy.mp3",
+			"img":"imgs/i will.jpg"
+		},
+		{
+			"id":4,
+			"nombre":"End of Time",
+			"artista":"Lacuna Coil",
+			"song":"music/Lacuna_Coil_-_End_Of_Time.mp3",
+			"img":"imgs/bsi_lcoil98.gif"
+		},
+		{
+			"id":5,
+			"nombre":"Como Tú",
+			"artista":"Leon Larregui",
+			"song":"music/leo larregui- como tu.mp3",
+			"img":"imgs/SOLSTIS.jpg"
+		}
+	]
+}
