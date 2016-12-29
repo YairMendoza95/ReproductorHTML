@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor de Música</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<img src="imgs/photo.jpg" class="img img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="imgs/photo.jpg" alt="" class="img img-responsive" id="img-album">
+				<audio id="player" controls=""></audio>
+			</div>
+			<div class="col-md-6">
+				<button class="btn btn-success" id="shuffle"><span class="glyphicon glyphicon-random"></span></button>
+				<ul class="list-group" id="playlist"></ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
