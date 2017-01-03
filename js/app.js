@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	GetSongs();
 });
-var audio;
+var audio = document.getElementById('player');
 var music;
 
 function GetSongs(){
@@ -19,6 +19,14 @@ function GenList(music){
 
 	$('#playlist li').click(function(){
 		var selectedSong = $(this).attr('id');
-		console.log(selectedSong);
+		//console.log(selectedSong);
+		PlaySong(selectedSong);
 	});
+}
+
+function PlaySong(id){
+	console.log(id);
+	$('#img-album').attr('src', music.songs[id].img);
+	$('#player').attr('src', music.songs[id].song);
+	audio.play();
 }
